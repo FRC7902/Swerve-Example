@@ -34,7 +34,6 @@ import edu.wpi.first.wpilibj2.command.sysid.SysIdRoutine.Config;
 import frc.robot.Constants;
 import frc.robot.Constants.DriveConstants;
 import frc.robot.Constants.OperatorConstants;
-import frc.robot.Constants.VisionConstants;
 import frc.robot.Robot;
 import swervelib.SwerveController;
 import swervelib.SwerveDrive;
@@ -64,7 +63,7 @@ public class SwerveSubsystem extends SubsystemBase {
 
         // Configure the Telemetry before creating the SwerveDrive to avoid unnecessary
         // objects being created.
-        SwerveDriveTelemetry.verbosity = TelemetryVerbosity.LOW;
+        SwerveDriveTelemetry.verbosity = TelemetryVerbosity.HIGH;
         try {
             swerveDrive = new SwerveParser(directory).createSwerveDrive(DriveConstants.MAX_SPEED,
                     new Pose2d(new Translation2d(Meter.of(1), Meter.of(4)),
