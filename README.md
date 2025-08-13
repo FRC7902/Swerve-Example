@@ -3,9 +3,11 @@
 This template provides a partially completed WPILib Java project for a Swerve subsystem.  
 Programmers are expected to **correct the code**.
 
-Link to JSON documentation:
+JSON Documentation:
 https://docs.google.com/document/d/1BHlBtJr1VE0Y8vt6WOzpMimnzWnfdrWHdG0ruRJGxIU/edit?usp=sharing
 
+Swerve Drive Presentation:
+https://docs.google.com/presentation/d/1jDL35-vLMYBl8dbPGuoaoglUoYSdfB8PENtxiW-kt4w/edit?slide=id.g374b4a56ed5_0_196#slide=id.g374b4a56ed5_0_196
 
 The `backleft.json`, `backright.json`, `frontleft.json`, `frontright.json`, and `swervedrive.json` in the `deploy/swerve` directory have incorrect values! It is up to you to correct this code so that we can simulate the swerve drive! After you are done, you should be able to do the following:
 
