@@ -3,7 +3,7 @@
 This template provides a partially completed WPILib Java project for a Swerve subsystem.  
 Programmers are expected to **correct the code**.
 
-The `backleft.json`, `backright.json`, `frontleft.json`, `frontright.json`, and `swervedrive.json` in the `deploy/swerve` have incorrect values! It is up to you to correct this code so that we can simulate the swerve drive! After you are done, you should be able to do the following:
+The `backleft.json`, `backright.json`, `frontleft.json`, `frontright.json`, and `swervedrive.json` in the `deploy/swerve` directory have incorrect values! It is up to you to correct this code so that we can simulate the swerve drive! After you are done, you should be able to do the following:
 
 
 ### ▶️ 1. Run the Robot in Simulation
