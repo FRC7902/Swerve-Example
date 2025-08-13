@@ -1,20 +1,10 @@
-# Vision Subsystem
+# Swerve Subsystem
 
-This template provides a partially completed WPILib Java project for a vision subsystem.  
-Programmers are expected to **fill in the missing code** to
+This template provides a partially completed WPILib Java project for a Swerve subsystem.  
+Programmers are expected to **correct the code**.
 
-1. Set up the Vision Simulation   
+The `backleft.json`, `backright.json`, `frontleft.json`, `frontright.json`, and `swervedrive.json` have incorrect values! It is up to you to correct this code so that we can simulate the swerve drive! After you are done, you should be able to do the following:
 
-    a. Set up the simulation camera's properties in the `Constants` file.
-
-    b. Add the camera to the Vision Simulation.
-
-2. View the Vision Simulator.
-3. Be able to read the `TX` and `TY` values from `SmartDashboard` using `Elastic`.
-
-The remainder of the document is a guide to how to get your simulation running.
-
----
 
 ### ▶️ 1. Run the Robot in Simulation
 
@@ -45,19 +35,3 @@ To control the robot simulation:
 - `D` = Drive Right
 
 ---
-
-### 🔍 3. Open Elastic and Add Data
-
-Elastic is used to obtain and read data provided by the robot.
-
-1. Launch **Elastic**.
-2. Right-click on the grey-shaded boxes and click `Add Widget`.
-3. Click the `SmartDashboard` drop-down box.
-4. Scroll all the way down until you see the `TX` and `TY` variables corresponding to your camera.
-5. Drag the variables onto the grey-shaded boxes to be able to see the data.
----
-
-### 🗺️ 4. Open the Vision Simulator
-
-1. In your web-brower, type in the URL: `localhost:1182` (this is for the middle camera, increment by two for additional cameras. E.g: `localhost:1184`)
-2. The Vision Simulator should be visible! Move the robot around and see the values change!
