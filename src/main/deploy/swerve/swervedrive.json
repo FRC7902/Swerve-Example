@@ -1,6 +1,6 @@
 {
     "imu": {
-        "type": "canandgyro",
+        "type": "arjun",
         "id": 5,
         "canbus": null
     },
